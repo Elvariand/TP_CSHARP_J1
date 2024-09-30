@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TP_CSHARP_J1
 {
-    public interface Book
+    public abstract class Book
     {
         protected int bookId { get; set; }
         protected string author { get; set; }
@@ -17,6 +17,19 @@ namespace TP_CSHARP_J1
         protected string edition { get; set; }
         protected DateTime dateOfPurchase { get; set; }
         
+        public Book(int bookId = 0, string author = "author", string name = "title", double price = 0, int rackNo = 0, bool status = true, string edition = "edition", DateTime dateOfPurchase = new DateTime())
+        {
+            this.bookId = bookId == 0 ? new Random().Next(1, 10000000): bookId;
+            this.price = price;
+            this.status = status;
+            this.author = author;
+            this.name = name;
+            this.rackNo = rackNo;
+            this.edition = edition;
+            this.dateOfPurchase = dateOfPurchase;
+        }
+
+
 
         public string DisplayBookDetails()
         {
