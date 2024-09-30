@@ -8,8 +8,8 @@ namespace TP_CSHARP_J1
 {
     public class Bill
     {
-        private string billNo {  get; set; }
-        private DateTime date {  get; set; }
+        private string billNo { get; set; }
+        private DateTime date { get; set; }
         private int memberId { get; set; }
         private double amount { get; set; }
 
@@ -21,11 +21,11 @@ namespace TP_CSHARP_J1
             this.amount = amount;
         }
 
-    public override string ToString()
-    {
+        public override string ToString()
+        {
             return "receipt n° " + this.billNo + " amounting to " + this.amount + "€ adressed to member n° " + this.memberId + ".";
-    }
+        }
 
-    // CRUD Bill
+        // CRUD Bill
     }
 }
