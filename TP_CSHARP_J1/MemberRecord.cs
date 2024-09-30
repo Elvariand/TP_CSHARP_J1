@@ -69,5 +69,17 @@ namespace TP_CSHARP_J1
         //{
         //    SoapSchemaMember code to pay the bill in db where dbBillId == billId
         //}
+
+        public override string ToString()
+        {
+            return "member n°" + this.memberId
+                + " I am a " + this.type
+                + " my name is " + this.name
+                + ", I live in " + this.address
+                + ", currently borrowing " + this.noBookIssued
+                + " book(s) out of " + this.maxBookLimit
+                + " maximum. I have been a member since " + this.dateOfMembership.ToLongDateString()
+                + " and my phone number is " + this.phoneNo;
+        }
     }
 }

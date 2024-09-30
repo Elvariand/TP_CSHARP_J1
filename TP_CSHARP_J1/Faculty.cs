@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TP_CSHARP_J1
 {
-    internal class Faculty
+    public class Faculty : MemberRecord
     {
+        public Faculty(int memberId, string name = "facultyName", string address = "unknownButFaculty", string phoneNo = "0101010101", int maxBookLimit = 1500, int noBookIssued = 0, DateTime dateOfMembership = new DateTime()) : base(memberId, name, address, phoneNo, maxBookLimit, noBookIssued, dateOfMembership) { }
     }
 }
