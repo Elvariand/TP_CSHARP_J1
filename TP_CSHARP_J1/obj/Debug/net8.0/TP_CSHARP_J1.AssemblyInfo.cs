@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP_CSHARP_J1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+863de9ac6aaaf80196d315c9a803d609c8f41ef1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bae8e9916250fd5a92cddcf768b016615e8c4c0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP_CSHARP_J1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP_CSHARP_J1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -17,7 +17,7 @@ namespace TP_CSHARP_J1
         protected string edition { get; set; }
         protected DateTime dateOfPurchase { get; set; }
         
-        public Book(int bookId = 0, string author = "author", string name = "title", double price = 0, int rackNo = 0, bool status = true, string edition = "edition", DateTime dateOfPurchase = new DateTime())
+        public Book(int bookId = 0, string author = "author", string name = "title", string edition = "edition", double price = 0, int rackNo = 0, bool status = true, DateTime dateOfPurchase = new DateTime())
         {
             this.bookId = bookId == 0 ? new Random().Next(1, 10000000): bookId;
             this.price = price;
@@ -26,14 +26,20 @@ namespace TP_CSHARP_J1
             this.name = name;
             this.rackNo = rackNo;
             this.edition = edition;
-            this.dateOfPurchase = dateOfPurchase;
+            this.dateOfPurchase = dateOfPurchase == new DateTime() ? DateTime.Now: dateOfPurchase;
         }
 
 
 
         public string DisplayBookDetails()
         {
-            return this.name + " écrit par " + this.author + ", publié aux éditions " + this.edition + ", acheté le " + this.dateOfPurchase.ToShortDateString() + ", portant le numéro " + this.bookId + ", habituellemnt rangé dans le rack n° " + this.rackNo + ", est actuellement " + this.status;
+            return this.name + " écrit par "
+                + this.author + ", publié aux éditions "
+                + this.edition + ", acheté le "
+                + this.dateOfPurchase.ToShortDateString() + " au prix de "
+                + this.price +"€, portant le numéro "
+                + this.bookId + ", habituellement rangé dans le rack n° "
+                + this.rackNo + ", est actuellement " + this.DisplayAvailability();
         }
 
         public string DisplayAvailability()
