@@ -1,0 +1,14 @@
+C:\Users\Elvariand\Coding\Projets\coursCSharp\TP_CSHARP_J1\TP_CSHARP_J1\bin\Debug\net8.0\TP_CSHARP_J1.exe
+C:\Users\Elvariand\Coding\Projets\coursCSharp\TP_CSHARP_J1\TP_CSHARP_J1\bin\Debug\net8.0\TP_CSHARP_J1.deps.json
+C:\Users\Elvariand\Coding\Projets\coursCSharp\TP_CSHARP_J1\TP_CSHARP_J1\bin\Debug\net8.0\TP_CSHARP_J1.runtimeconfig.json
+C:\Users\Elvariand\Coding\Projets\coursCSharp\TP_CSHARP_J1\TP_CSHARP_J1\bin\Debug\net8.0\TP_CSHARP_J1.dll
+C:\Users\Elvariand\Coding\Projets\coursCSharp\TP_CSHARP_J1\TP_CSHARP_J1\bin\Debug\net8.0\TP_CSHARP_J1.pdb
+C:\Users\Elvariand\Coding\Projets\coursCSharp\TP_CSHARP_J1\TP_CSHARP_J1\obj\Debug\net8.0\TP_CSHARP_J1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elvariand\Coding\Projets\coursCSharp\TP_CSHARP_J1\TP_CSHARP_J1\obj\Debug\net8.0\TP_CSHARP_J1.AssemblyInfoInputs.cache
+C:\Users\Elvariand\Coding\Projets\coursCSharp\TP_CSHARP_J1\TP_CSHARP_J1\obj\Debug\net8.0\TP_CSHARP_J1.AssemblyInfo.cs
+C:\Users\Elvariand\Coding\Projets\coursCSharp\TP_CSHARP_J1\TP_CSHARP_J1\obj\Debug\net8.0\TP_CSHARP_J1.csproj.CoreCompileInputs.cache
+C:\Users\Elvariand\Coding\Projets\coursCSharp\TP_CSHARP_J1\TP_CSHARP_J1\obj\Debug\net8.0\TP_CSHARP_J1.dll
+C:\Users\Elvariand\Coding\Projets\coursCSharp\TP_CSHARP_J1\TP_CSHARP_J1\obj\Debug\net8.0\refint\TP_CSHARP_J1.dll
+C:\Users\Elvariand\Coding\Projets\coursCSharp\TP_CSHARP_J1\TP_CSHARP_J1\obj\Debug\net8.0\TP_CSHARP_J1.pdb
+C:\Users\Elvariand\Coding\Projets\coursCSharp\TP_CSHARP_J1\TP_CSHARP_J1\obj\Debug\net8.0\TP_CSHARP_J1.genruntimeconfig.cache
+C:\Users\Elvariand\Coding\Projets\coursCSharp\TP_CSHARP_J1\TP_CSHARP_J1\obj\Debug\net8.0\ref\TP_CSHARP_J1.dll
